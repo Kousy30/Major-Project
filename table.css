@@ -1,0 +1,44 @@
+table, th, td {
+  border: 1px solid #edc7b7;
+  padding: 15px;
+  background-color: #123c69;
+  color:#edc7b7;
+}
+.size{
+  width:50px;
+}
+#seven {
+  background-color: #25274d;
+  padding: 10px;
+  color:#edc7b7;
+}
+
+#eight{
+  background-color:#464866 ;
+  padding: 10px;
+  color:#edc7b7;
+}
+
+#nine{
+  background-color: #29648a;
+  padding: 10px;
+  color:#edc7b7;
+}
+
+#twen{
+  background-color: #2e9cca;
+  padding: 10px;
+  color:#edc7b7;
+}
+
+#twenone{
+  background-color: #25274d;
+  padding: 10px;
+  color:#edc7b7;
+}
+
+table{
+width:95%;
+margin: 30px;
+
+}

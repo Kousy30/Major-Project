@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Volunteer Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+	  body{
+			background-color: #330000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+		}
+    .btn{
+      	background-image: linear-gradient(to right,#ff3ba8, #610525, #e75063);
+       }
+    .i{
+ 	   color: #e6ccff;
+       }
+    .input-div:before, .input-div:after{
+	    background-color: #bb5991;
+      }
+    .input-div.focus > .i > i{
+	    color: #790347;
+      }
+      a:hover{
+      	color: #ff7c54;
+      }
+
+ </style>
+</head>
+<body>
+  <img src="https://drive.google.com/thumbnail?id=1uNGHm8OlHAaXhBMyx23jEEaORGh2EwSw" align="left"  id = "left-logo">
+  <img src="https://drive.google.com/thumbnail?id=1tIMjb3NX-ykojjPorf1v2EwcagC5qSAr" align="right"  id = "right-logo" >
+  <h1><font style="garamond" color=#e6ccff><center><u>Volunteer Login</u></font></h1>
+	<div class="container">
+		<div class="login-content">
+			<form action="authentvolunteer.php" method="POST">
+				<h2 class="title"><font color=white>Welcome Volunteer</font></h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5><font color=#e697b9>Username</font></h5>
+           		   		<input type="text" name="user" class="input" required>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i">
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5><font color=#e697b9>Password</font></h5>
+           		    	<input type="password" name="pass" class="input" required>
+            	   </div>
+            	</div>
+            	<a href="#"data-toggle="tooltip" data-placement="right" title="Contact Admin to recover Password">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="log.js"></script>
+</body>
+</html>

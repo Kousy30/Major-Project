@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>President Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .btn{
+      	background-image: linear-gradient(to right, #dd314b, #5a1f59, #ea2bdc);
+       }
+    .i{
+ 	   color: #e697b9;
+       }
+    .input-div:before, .input-div:after{
+	    background-color: #bb5991;
+      }
+    .input-div.focus > .i > i{
+	    color: #790347;
+      }
+      a:hover{
+      	color: #790347;
+      }
+
+ </style>
+</head>
+<body>
+  <img src="https://drive.google.com/thumbnail?id=1uNGHm8OlHAaXhBMyx23jEEaORGh2EwSw" align="left"  id = "left-logo">
+  <img src="https://drive.google.com/thumbnail?id=1tIMjb3NX-ykojjPorf1v2EwcagC5qSAr" align="right"  id = "right-logo" >
+	<img class="wave" src="https://drive.google.com/thumbnail?id=19m0uvIzc3jb8qCUlryqx7etCjGc6MRvj">
+  <h1><font style="Copperplate" color=#ffc9c9><center><u>President Login</u></font></h1>
+		<div class="container">
+			<div class="login-content">
+				<form action="authentpresident.php" method="POST" name="f1" >
+					<h2 class="title"><font stlye="monotype corsiva" color="black">Welcome President</font></h2>
+	           		<div class="input-div one">
+	           		   <div class="i">
+	           		   		<i class="fas fa-user"></i>
+	           		   </div>
+	           		   <div class="div">
+	           		   		<h5><font color=#ffc9c9>Username</font></h5>
+	           		   		<input type="text" id="user" name="user" class="input" required>
+	           		   </div>
+	           		</div>
+	           		<div class="input-div pass">
+	           		   <div class="i">
+	           		    	<i class="fas fa-lock"></i>
+	           		   </div>
+	           		   <div class="div">
+	           		    	<h5><font color=#ffc9c9>Password</font></h5>
+	           		    	<input type="password" id="pass" name="pass" class="input" required>
+	            	   </div>
+	            	</div>
+	            	<a href="#" data-toggle="tooltip" data-placement="right" title="Contact Admin to recover Password">Forgot Password?</a>
+	            	<input type="submit" class="btn" value="Login">
+	            </form>
+	        </div>
+	    </div>
+    <script type="text/javascript" src="log.js"></script>
+</body>
+</html>

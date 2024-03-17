@@ -1,0 +1,19 @@
+.padd{
+padding : 50px;
+font-family:timesnewroman;
+color:#240090;
+font-size: 20px;
+}.pad{
+padding-left : 50px;
+
+}
+.head{
+  font-family:garamond;
+  color: #190061;
+  text-shadow:  1px 3px 3px #4285f4,
+      0px -4px 10px rgba(255,255,255,0.3);
+}
+.page-link{
+  color:#0c0032;
+  border-color: blue;
+}
